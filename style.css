@@ -36,13 +36,12 @@ body {
   width: 450px;
   border-radius: 50%;
   border: 1rem solid var(--tumbleweed);
-  border-bottom: 1rem solid var(--sizzling-red);
-  animation: animate 3s linear infinite;
+  border: 1rem solid var(--sizzling-red);
+  /* animation: animate 3s linear infinite; */
 }
 
 #time-remaining {
   position: absolute;
-  top: 50%;
   text-align: center;
   color: #fff;
   font-weight: 700;
@@ -55,7 +54,7 @@ body {
   align-items: center;
 }
 
-.animate-timer::before {
+/* .animate-timer::before {
   content: '';
   position: absolute;
   border-radius: 50%;
@@ -69,9 +68,9 @@ body {
   left: 1rem;
   right: 1rem;
   animation: animate 4s linear infinite;
-}
+} */
 
-.animate-timer::after {
+/* .animate-timer::after {
   content: '';
   position: absolute;
   border-radius: 50%;
@@ -84,7 +83,7 @@ body {
   bottom: 4rem;
   left: 4rem;
   right: 4rem;
-  animation: animate 4s linear infinite;
+  animation: animate 4s linear infinite; */
 }
 
 .timer {
